@@ -8,12 +8,12 @@ export default function Guest({ children }) {
     } = usePage()
 
     return (
-        <div className="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100 dark:bg-gray-900">
+        <div className="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-red-800 dark:bg-gray-900">
             <div>
                 <Link href="/">
                     <div className="flex flex-col gap-2 items-center">
                         <img src={app_logo} alt="app_logo" className="h-24" />
-                        <h1 className="w-auto h-20 fill-current text-gray-500 text-5xl font-bold mt-2">
+                        <h1 className="w-auto h-20 fill-current text-white text-5xl font-bold mt-2">
                             {app_name}
                         </h1>
                     </div>

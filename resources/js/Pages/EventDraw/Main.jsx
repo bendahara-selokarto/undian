@@ -61,6 +61,8 @@ export default function Main(props) {
 
     const handleSubmit = () => {
         post(route('draw.store.main', event))
+        handleOnDelete()
+        
     }
 
     useEffect(() => {
